@@ -30,7 +30,7 @@ header .logo
     color: #ffff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -49,13 +49,14 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: black;
+    color: white;
     border-radius: 20px;
 }
 header ul li a:hover , header ul li a.active
 {
     background: purple;
     color: white;
+    font-size: 20spx;
 }
 section
 {
@@ -90,7 +91,8 @@ section img
 section img#moon
 {
     mix-blend-mode: screen;
-    size: 50px;
+    height: 50px;
+    background-image: url(ai.png);
 }
 section img#mountains_front
 {
@@ -99,7 +101,7 @@ section img#mountains_front
 #text
 {
     position: absolute;
-    color: purple;
+    color: white;
     right: -350px;
     white-space: nowrap;
     font-size: 7.5vw;
